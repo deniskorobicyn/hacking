@@ -16,7 +16,7 @@ void TestIterators::run_qvector() {
   _java();
 }
 
-void TestIterators::_init(){
+void TestIterators::_init() {
   m_sum = 0;
 }
 
