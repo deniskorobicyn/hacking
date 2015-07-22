@@ -15,11 +15,12 @@ CONFIG += c++11
 
 TEMPLATE = app
 
+INCLUDEPATH += ./utils
 
 SOURCES += main.cpp \
-    test_iterators.cpp \
-    timer.cpp
+    test_iterators/test_iterators.cpp \
+    utils/timer.cpp
 
 HEADERS += \
-    test_iterators.h \
-    timer.h
+    test_iterators/test_iterators.h \
+    utils/timer.h

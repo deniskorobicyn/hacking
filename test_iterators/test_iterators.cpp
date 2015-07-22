@@ -9,6 +9,7 @@ TestIterators::TestIterators() : size(1 << 28), m_sum(0) {
 }
 
 void TestIterators::run_qvector() {
+  // all actually execly the same, so prefer c++11 loop, cuz its simplest
   _raw();
   _stl();
   _const_stl();
