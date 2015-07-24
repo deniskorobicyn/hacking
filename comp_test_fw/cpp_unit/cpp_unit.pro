@@ -16,6 +16,8 @@ INCLUDEPATH += ../factorial
 
 LIBS += -L../app -lapp
 
+LIBS += -lcppunit
+
 LIBS += -L../factorial -lfactorial
 
 SOURCES += cppunit_main.cpp \
