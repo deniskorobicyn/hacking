@@ -1,7 +1,17 @@
-#ifndef BASE_TEST_H
-#define BASE_TEST_H
-#include <QDateTime>
+#ifndef TIMER_H
+#define TIMER_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(TIMER_LIBRARY)
+#  define TIMERSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define TIMERSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+
 #include <QDebug>
+#include <QDateTime>
 
 namespace hacking {
 class Timer {
@@ -16,4 +26,4 @@ class Timer {
 };
 }
 
-#endif  // BASE_TEST_H
+#endif  // TIMER_H

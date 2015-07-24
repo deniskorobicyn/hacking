@@ -1,4 +1,4 @@
-#include "test_iterators/test_iterators.h"
+#include "test_iterators.h"
 
 int main() {
   hacking::TestIterators t;
